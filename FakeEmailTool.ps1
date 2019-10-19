@@ -16,7 +16,7 @@ Add-Type -AssemblyName System.Windows.Forms
 # FORM CREATION
 $Form = New-Object system.Windows.Forms.Form
 $Form.Text = "Fake Emails"
-$Icon = New-Object system.drawing.icon ("sources\guard.ICO")
+$Icon = New-Object system.drawing.icon ("sources\icon.ICO")
 $Form.Icon = $Icon
 $Form.AutoScroll = $True
 $Form.Width = 650
@@ -200,10 +200,10 @@ $bsend.ForeColor = [System.Drawing.Color]::Green
 $bsend.text = "Sent"
 $bsend.Font = $ClickedFont
 
-$PSEmailServer = "Your_email_server_address"     # Please, change this variable
-$SMTPPort = "Your_email_server_Port"             # Please, change this variable
-$SMTPUsername = "Your_email_server_username"     # Please, change this variable
-$Password = "Your_email_server_password"         # Please, change this variable
+$PSEmailServer = "Your_email_server_address"     # Please, modify this variable
+$SMTPPort = "Your_email_server_Port"             # Please, modify this variable
+$SMTPUsername = "Your_email_server_username"     # Please, modify this variable
+$Password = "Your_email_server_password"         # Please, modify this variable
 
 $SecureStringPassword = $Password | ConvertTo-SecureString -AsPlainText -Force
 
