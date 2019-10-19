@@ -16,4 +16,4 @@ After this, you can simply convert it to an exe file:
 - Fill the form with your details
 - Enjoy the tool
 
-If you just want to test it quickly, you can use FakeEmailTool.exe that has a limit of 25 emails per hour.
+If you just want to test it quickly, you can download FakeEmailTool.zip where you will find the tool working out of the box with a limit of 25 emails per hour. 
