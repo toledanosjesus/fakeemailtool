@@ -1,6 +1,6 @@
 # fakeemailtool
 
-To use this tool you just need to modify the variables below with your own connection details:
+To customize this tool you just need to modify the variables below with your own connection details:
 
     $PSEmailServer = "Your_email_server_address"     # Please, modify this variable
     $SMTPPort = "Your_email_server_Port"             # Please, modify this variable
@@ -15,3 +15,5 @@ After this, you can simply convert it to an exe file:
 - Execute Win-PS2EXE.exe
 - Fill the form with your details
 - Enjoy the tool
+
+If you just want to test it quickly, you can use FakeEmailTool.exe that has a limit of 25 emails per hour.
